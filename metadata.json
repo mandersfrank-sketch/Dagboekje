@@ -1,0 +1,6 @@
+{
+  "name": "Digitaal Dagboek",
+  "description": "Een overzichtelijk digitaal dagboekje om dagelijkse entries met stemming en reflectievragen vast te leggen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

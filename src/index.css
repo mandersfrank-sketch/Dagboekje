@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-palette-navy: #163f57;
+  --color-palette-sand: #cfa373;
+  --color-palette-taupe: #c09b7b;
+  --color-palette-dusty: #abc7cd;
+  --color-palette-cloud: #e2e4e4;
+  --color-palette-brown-224go: #765c47;
+  --color-palette-beige-card: #f2ebe1;
+  --color-palette-earth: #4d3621;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
